@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main () {
+	char huruf = 'Y' ;
+	/* JIKA DIMASUKKAN N MAKA AKAN MELAKUKAN PERULANGAN
+	TETAPI KETIKA DIMASUKKAN Y MAKA AKAN MENJALANKAN PROGRAM
+	*/
+	do {
+		cout << "Masukkan ' N ' untuk menghentikan perulangan " <<endl;
+		cout << "Masukkan huruf ' Y ' : ";
+		cin >> huruf;
+	} while (huruf == 'Y');
+	return 0;
+}
