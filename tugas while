@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main () {
+	int i = 100 ;
+		//Menampilkan angka ganjil genap menggunakan while 100-1000
+		cout << "Masukkan angka dari range 100-1000 :" << endl;
+		cin >> i ;
+	while( i <= 1000 ) {
+		if ( i % 2 == 1) {
+			cout << i << " : Adalah bilangan ganjil " <<endl ; i++;
+		}else{
+			cout << i << " : Adalah bilangan genap " <<endl ; i++;
+		}
+	}
+}
